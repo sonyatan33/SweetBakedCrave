@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .nav_btn {
+        @apply bg-white px-5 py-2 shadow-md text-black;
+    }
+}
