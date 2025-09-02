@@ -4,13 +4,9 @@ import { useState } from "react";
 
 function Navbar() {
   const [menuStatus, setMenuStatus] = useState(false);
-  const [sidebarStatus, setSidebarStatus] = useState("w-0");
-  // const handleClick = () => {
-  //   set
-  // }
   return (
     <>
-      <header className="bg-nav-bg-color py-6 items-center sticky">
+      <header className="bg-nav-bg-color py-6 items-center top-0 sticky w-screen z-30">
         <nav
           className="flex justify-between 
                     items-center w-[100%] px-10"
