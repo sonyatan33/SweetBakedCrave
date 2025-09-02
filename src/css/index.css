@@ -7,3 +7,16 @@
 *{
     font-family: "Inter";
 }
+
+@layer utilities {
+    /* For WebKit browsers (Chrome, Safari, Opera, Edge) */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+  
+    /* For Firefox and IE/Edge */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
