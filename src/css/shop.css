@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dropdown-list {
+    @apply flex flex-col gap-3 bg-main-bg-color;
+  }
+
+  input[type="checkbox"] {
+    @apply w-5 h-5;
+  }
+}

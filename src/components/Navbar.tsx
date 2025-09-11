@@ -6,7 +6,7 @@ function Navbar() {
   const [menuStatus, setMenuStatus] = useState(false);
   return (
     <>
-      <header className="bg-nav-bg-color py-6 items-center top-0 sticky w-screen z-30">
+      <header className="bg-nav-bg-color py-6 items-center top-0 sticky z-30">
         <nav
           className="flex justify-between 
                     items-center w-[100%] px-10"
