@@ -28,7 +28,7 @@ function Shop() {
   }
   return (
     <>
-      <div className="bg-main-bg-color flex gap-12 px-12 py-12 min-h-screen">
+      <div className="bg-main-bg-color flex gap-12 p-12 min-h-screen">
         <form className="flex flex-col text-white w-1/6 gap-4">
           <div
             className="flex justify-between cursor-pointer"
